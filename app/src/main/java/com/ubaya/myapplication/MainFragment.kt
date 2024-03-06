@@ -32,6 +32,7 @@ class MainFragment : Fragment() {
         answer = number1 + number2
         var question = number1.toString()+" + "+number2.toString()
         binding.txtQuestion.setText(question)
+        binding.txtAnswer.setText("")
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
